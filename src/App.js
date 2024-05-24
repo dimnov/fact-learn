@@ -23,7 +23,6 @@ function App() {
   const [facts, setFacts] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [currentCategory, setCurrentCategory] = useState('all');
-  // let voteBy = 'votesMindblowing';
 
   useEffect(function () {
     async function getFacts() {

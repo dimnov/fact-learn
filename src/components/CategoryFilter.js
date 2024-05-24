@@ -14,13 +14,6 @@ function CategoryFilter({ setCurrentCategory }) {
           </li>
         ))}
       </ul>
-
-      <ul className="filter">
-        <p>Filter By:</p>
-        <li className="filter"><button className="btn btn-category byMindBlow">MindBlow</button></li>
-        <li className="filter"><button className="btn btn-category byFalse">False</button></li>
-      </ul>
-
     </aside >
   );
 }
